@@ -16,7 +16,8 @@ while run:
   
 
   # Draw a rectangle
-  pygame.draw.rect(win, (121, 40, 148), (50, 50, 100, 200))
+  #
+  win.blit(img,(0,0))
   
   #Update the display
   pygame.display.update()
