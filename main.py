@@ -6,7 +6,7 @@ img=pygame.image.load("assets/hero/Old hero.png").convert()
 img2=pygame.image.load("assets/forest-assets/door.png")
 img3=pygame.image.load("assets/forest-assets/cave.png")
 img4=pygame.image.load("assets/hero/sliced/peace.png")
-img5=pygame.image.load("This PC/Downloads/Zelda map")
+img5=pygame.image.load("assets/Zelda map.png")
 # Create the font
 font=pygame.font.SysFont("arial", 30)
 font2=pygame.font.SysFont("arial",50)
