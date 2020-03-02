@@ -19,9 +19,11 @@ while run:
 
     win.fill((0, 0, 0))
     win.blit(img,(0,0))
-    win.blit(img,(48,0))
-    win.blit(img, (96,0))
-    win.blit(img,(136,0))
+    for y in range(38):
+        for x in range(19):
+                win.blit(img,(x * 48,y*16))
+
+
 
 
     
